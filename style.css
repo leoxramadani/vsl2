@@ -7,6 +7,11 @@ body {
   background-image: linear-gradient(to right, crimson, rgb(255, 60, 0));
 }
 
+.main-container {
+  display: Flex;
+  flex-direction: column;
+  align-items: center;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -71,8 +76,7 @@ body {
   display: flex;
   justify-content: center;
   width: 96%;
-  margin-left: 2%;
-  height: 120vh;
+  height: 100vh;
   margin-top: -20vh;
   background-color: #d8d1d146;
   border-radius: 15px;
@@ -86,7 +90,7 @@ body {
 .div-header img {
   margin-top: 30vh;
   width: 60%;
-  height: 80vh;
+  height: 60vh;
   -webkit-transform: skewY(5deg);
   -moz-transform: skewY(5deg);
   -ms-transform: skewY(5deg);
@@ -135,7 +139,6 @@ body {
   border-radius: 15px;
   margin-top: 10vh;
   width: 96%;
-  margin-left: 2%;
   height: 100vh;
   background-color: #ffffff17;
   -webkit-transform: skewY(-5deg);
@@ -321,7 +324,6 @@ footer {
   margin-top: 40vh;
   width: 96%;
   opacity: 0.5;
-  margin-left: 2%;
   height: auto;
   padding: 5px;
   background-color: #ffffff17;
@@ -353,7 +355,7 @@ footer {
   margin: 30px 0;
   border-radius: 10px;
   border: 3px solid rgba(255, 255, 255, 0.24);
-  width: 60%;
+  width: 90%;
   text-align: Center;
 }
 .div-header3 table th,
@@ -376,8 +378,7 @@ td {
   border-radius: 15px;
   margin-top: 10vh;
   padding: 20px;
-  width: 96%;
-  margin-left: 2%;
+  width: 94%;
   height: auto;
   background-color: #ffffff17;
   -webkit-transform: skewY(-5deg);
